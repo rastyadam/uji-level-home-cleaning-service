@@ -1,0 +1,18 @@
+PSR-4 mismatches detected by composer dump-autoload -o (excerpt):
+
+- Class App\Filament\Resources\servicescategoriesResource located in ./app/Filament/Resources/ServicescategoriesResource.php does not comply with psr-4 autoloading standard.
+- Class App\Http\Controllers\FrontController located in ./app/Http/Controllers/Frontcontroller.php does not comply with psr-4 autoloading standard.
+- Class App\Http\Controllers\OrderController located in ./app/Http/Controllers/Ordercontroller.php does not comply with psr-4 autoloading standard.
+- Class App\Models\promo_codes located in ./app/Models/Promo_codes.php does not comply with psr-4 autoloading standard.
+- Class App\Models\Services located in ./app/Models/services.php does not comply with psr-4 autoloading standard.
+- Class App\Models\service_transactions located in ./app/Models/Service_transactions.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\CategoryRepository located in ./app/Repositories/Contracts/CategoryRepository.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\Contracts\CategoryRepositoryInterface located in ./app/Repositories/Contracts/CategoryRepositoryinterface.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\OrderRepository located in ./app/Repositories/Contracts/OrderRepository.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\Contracts\OrderRepositoryInterface located in ./app/Repositories/Contracts/OrderRepositoryinterface.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\PromoCodeRepository located in ./app/Repositories/Contracts/PromoCodeRepository.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\Contracts\PromoCodeRepositoryInterface located in ./app/Repositories/Contracts/PromoCodeRepositoryinterface.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\ServiceRepository located in ./app/Repositories/Contracts/ServiceRepository.php does not comply with psr-4 autoloading standard.
+- Class App\Repositories\Contracts\ServiceRepositoryInterface located in ./app/Repositories/Contracts/ServiceRepositoryinterface.php does not comply with psr-4 autoloading standard.
+
+(Full output contains additional items. We can generate a complete list or start fixing a prioritized subset.)
