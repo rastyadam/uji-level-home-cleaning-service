@@ -53,11 +53,8 @@
                     <li><a href="#service">Service</a></li>
                     <li><a href="#testi">Testimonial</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    
-                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <i class="mobile-nav-toggle bi bi-list"></i>
             </nav>
         </div>
     </div>
@@ -76,7 +73,7 @@
             </div>
 
             <div class="hero-image">
-                <img src="img/cleaning service company.jpg" alt="Cleaning Service" class="img-fluid">
+                <img src="/CoreBiz/assets/img/about/cleaning service company.jpg" alt="Cleaning Service" >
 
                 <div class="floating-card">
                     <div class="metric">
@@ -129,7 +126,7 @@
     <div class="container about-container">
 
         <div class="about-image">
-            <img src="img/about.jpg" alt="About Us" class="img-fluid">
+            <img src="/CoreBiz/assets/img/about/about-square-8.webp" alt="About Us" class="img-fluid">
         </div>
 
         <div class="about-text">
@@ -277,7 +274,7 @@
             <!-- CARD 1 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/images/user1.jpg" alt="">
+                    <img src="/CoreBiz/assets/img/person/person-f-1.webp" alt="">
                     <div>
                         <h4>Rina Amanda</h4>
                         <span>Pelanggan Rumah Tangga</span>
@@ -291,7 +288,7 @@
             <!-- CARD 2 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/images/user2.jpg" alt="">
+                    <img src="/CoreBiz/assets/img/person/person-m-2.webp" alt="">
                     <div>
                         <h4>Fauzan Pratama</h4>
                         <span>Pelanggan Kantor</span>
@@ -305,7 +302,7 @@
             <!-- CARD 3 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/images/user3.jpg" alt="">
+                    <img src="/images/person-f-6.webp" alt="">
                     <div>
                         <h4>Sari Fitriani</h4>
                         <span>Deep Cleaning</span>
@@ -553,6 +550,7 @@
             <span class="sitename">Bersih BERSINAR</span>
           </a>
           <div class="footer-contact pt-3">
+            <p>GEA SUKMA SHAKILA 12</p>
             <p>RASTY AMALIA BERSADA 22</p>
             <p>Jl.Kwagya NCIT </p>
             <p class="mt-3"><strong>Phone:</strong> <span>+62 8925771086746</span></p>
