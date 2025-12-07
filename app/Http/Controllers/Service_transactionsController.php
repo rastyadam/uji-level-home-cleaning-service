@@ -22,6 +22,9 @@ class Service_transactionsController extends Controller
     // ========= STORE DATA =========
     public function store(Request $request)
     {
+        // Debug: Log the request data
+        \Log::info('Pemesanan store called', $request->all());
+
         $validated = $request->validate([
             'name'       => 'required',
             'email'      => 'required|email',
@@ -34,6 +37,8 @@ class Service_transactionsController extends Controller
             'promo_code' => 'nullable|string|exists:promo_codes,code',
             'proof'      => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
+
+        \Log::info('Validation passed', $validated);
 
         // Buat user guest
         $user = User::firstOrCreate(

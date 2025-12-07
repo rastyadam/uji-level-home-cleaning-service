@@ -11,11 +11,24 @@
     <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/aset/assets/vendor/bootstrap/css/bootstrap.min.css">
+
     <!-- Main CSS -->
+    {{-- <link rel="stylesheet" href="/aset/assets/css/main.css"> --}}
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/assests/style.css">
 </head>
 
 <body>
+
+  @if (session('success'))
+    <div class="alert alert-success text-center" 
+         style="background: #4caf50; color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+        {{ session('success') }}
+    </div>
+@endif
 
 <header id="header" class="header sticky-top">
 
@@ -73,7 +86,7 @@
             </div>
 
             <div class="hero-image">
-                <img src="/CoreBiz/assets/img/about/cleaning service company.jpg" alt="Cleaning Service" >
+                <img src="/assests/img/about/cleaning service company.jpg" alt="Cleaning Service" >
 
                 <div class="floating-card">
                     <div class="metric">
@@ -126,7 +139,7 @@
     <div class="container about-container">
 
         <div class="about-image">
-            <img src="/CoreBiz/assets/img/about/about-square-8.webp" alt="About Us" class="img-fluid">
+            <img src="/assests/img/about/about-square-8.webp" alt="About Us" class="img-fluid">
         </div>
 
         <div class="about-text">
@@ -157,7 +170,7 @@
     <!-- 1. Request Lain -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/permintaan lain.png" alt="Request Lain">
+            <img src="/assests/img/permintaan lain.png" alt="Request Lain">
         </div>
         <div class="service-content">
             <h3>Request Lain</h3>
@@ -172,7 +185,7 @@
     <!-- 2. Daily/General Cleaning -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/daily cleaning.jpg" alt="Daily/General Cleaning">
+            <img src="/assests/img/daily cleaning.jpg" alt="Daily/General Cleaning">
         </div>
         <div class="service-content">
             <h3>Daily/General Cleaning</h3>
@@ -187,7 +200,7 @@
     <!-- 3. AC Maintenance -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/ac maintence.jpg" alt="AC Maintenance">
+            <img src="/assests/img/ac maintence.jpg" alt="AC Maintenance">
         </div>
         <div class="service-content">
             <h3>AC Maintenance</h3>
@@ -202,7 +215,7 @@
     <!-- 4. Deep Cleaning -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/daily%20cleaning.jpg" alt="Deep Cleaning">
+            <img src="/assests/img/daily%20cleaning.jpg" alt="Deep Cleaning">
         </div>
         <div class="service-content">
             <h3>Deep Cleaning</h3>
@@ -217,7 +230,7 @@
     <!-- 5. Specialized Cleaning -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/spesial cleaning.jpg" alt="Specialized Cleaning">
+            <img src="/assests/img/spesial cleaning.jpg" alt="Specialized Cleaning">
         </div>
         <div class="service-content">
             <h3>Specialized Cleaning</h3>
@@ -232,7 +245,7 @@
     <!-- 6. Pembersihan Area Khusus -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/CoreBiz/assets/img/area khusus.jpg" alt="Pembersihan Area Khusus">
+            <img src="/assests/img/area khusus.jpg" alt="Pembersihan Area Khusus">
         </div>
         <div class="service-content">
             <h3>Pembersihan Area Khusus</h3>
@@ -247,7 +260,7 @@
     <!-- 7. Disinfektan/Fogging -->
     <div class="service-card">
         <div class="service-img-container">
-            <img src="/Corebiz/assets/img/disinfektan clean.jpg" alt="Disinfektan/Fogging">
+            <img src="/assests/img/disinfektan clean.jpg" alt="Disinfektan/Fogging">
         </div>
         <div class="service-content">
             <h3>Disinfektan/Fogging</h3>
@@ -274,7 +287,7 @@
             <!-- CARD 1 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/CoreBiz/assets/img/person/person-f-1.webp" alt="">
+                    <img src="/assests/img/person/person-f-1.webp" alt="">
                     <div>
                         <h4>Rina Amanda</h4>
                         <span>Pelanggan Rumah Tangga</span>
@@ -288,7 +301,7 @@
             <!-- CARD 2 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/CoreBiz/assets/img/person/person-m-2.webp" alt="">
+                    <img src="/assests/img/person/person-m-2.webp" alt="">
                     <div>
                         <h4>Fauzan Pratama</h4>
                         <span>Pelanggan Kantor</span>
@@ -302,7 +315,7 @@
             <!-- CARD 3 -->
             <div class="swiper-slide testimonial-card">
                 <div class="testimonial-profile">
-                    <img src="/images/person-f-6.webp" alt="">
+                    <img src="/assests/img/person/person-f-6.webp" alt="">
                     <div>
                         <h4>Sari Fitriani</h4>
                         <span>Deep Cleaning</span>

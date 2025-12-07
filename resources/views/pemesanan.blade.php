@@ -86,6 +86,19 @@
         </div>
     @endif
 
+    {{-- ALERT ERROR --}}
+    @if($errors->any())
+        <div class="alert alert-danger text-center mb-4">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            <strong>Ada kesalahan dalam pengisian form:</strong>
+            <ul class="mb-0 mt-2">
+                @foreach($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <div class="form-card">
         <div class="form-header">
             <h3 class="mb-0"><i class="fas fa-clipboard-list me-2"></i>Detail Pemesanan</h3>
