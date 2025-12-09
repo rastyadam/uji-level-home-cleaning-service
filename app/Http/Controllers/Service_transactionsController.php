@@ -7,6 +7,8 @@ use App\Models\Service_transactions;
 use App\Models\Services;
 use App\Models\User;
 use App\Models\Promo_codes;
+use Illuminate\Support\Facades\Log;
+
 
 class Service_transactionsController extends Controller
 {

@@ -1,0 +1,90 @@
+:root {
+    --color-primary: #0A4174;
+    --color-secondary: #FFC300;
+    --color-text-dark: #212529;
+    --color-text-subtle: #6c757d;
+    --color-light-bg: #F8F9FA;
+    --border-radius-lg: 12px;
+    --border-radius-sm: 8px;
+    --section-padding: 80px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-text-dark);
+    line-height: 1.6;
+    background-color: white;
+}
+
+
+.form-container {
+    background: var(--color-light-bg);
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+
+.form-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+
+.form-header {
+    background: var(--color-primary);
+    padding: 1.8rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-body {
+    padding: 2rem;
+}
+.form-label {
+    font-weight: 600;
+    color: var(--color-text-dark);
+}
+
+.form-control {
+    border: 1.5px solid #d4d9de;
+    border-radius: var(--border-radius-sm);
+    background: #fff;
+    transition: .2s ease;
+}
+
+.form-control:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 0.15rem rgba(10, 65, 116, .25);
+}
+
+
+.btn-submit {
+    background: var(--color-secondary);
+    border: none;
+    padding: 0.9rem 2rem;
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    color: var(--color-text-dark);
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.btn-submit:hover {
+    background: #e6a700;
+    transform: translateY(-2px);
+}
+
+
+.alert-success {
+    background: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: var(--border-radius-sm);
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
